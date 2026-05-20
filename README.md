@@ -39,8 +39,8 @@ Run the binary without arguments to see the full ARP table:
 $ ./mac_ip_lookup
 IP address       MAC address
 -----------------------------------------
-172.18.66.1      00:1c:42:xx:xx:xx
-172.18.66.69     00:0c:29:aa:02:43
+192.168.2.1      00:1c:42:xx:xx:xx
+192.168.2.69     00:0c:29:aa:02:43
 ...
 ```
 
@@ -48,14 +48,14 @@ IP address       MAC address
 
 ```bash
 $ ./mac_ip_lookup 00:0c:29:aa:02:43
-MAC: 00:0c:29:aa:02:43 -> IP: 172.18.66.69
+MAC: 00:0c:29:aa:02:43 -> IP: 192.168.2.69
 ```
 
 ### Lookup MAC from IP
 
 ```bash
-$ ./mac_ip_lookup 172.18.66.69
-IP: 172.18.66.69 -> MAC: 00:0c:29:aa:02:43
+$ ./mac_ip_lookup 192.168.2.69
+IP: 192.168.2.69 -> MAC: 00:0c:29:aa:02:43
 ```
 
 If the requested address is not present in the ARP table, the program will report “Not found”.
