@@ -68,6 +68,3 @@ The tool reads the system's ARP cache (via `/proc/net/arp` on Linux) and builds 
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
-## Contact
-
-For questions or suggestions, please open an issue on GitHub or contact the author at <wangzhsh0823@example.com>.
